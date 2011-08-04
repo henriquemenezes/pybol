@@ -1,0 +1,36 @@
+### Pybol ######################################################################
+
+Pybol é uma biblioteca feita em Python para geração de boletos bancários do 
+Brasil em PDF. É baseada no pyboleto (http://code.google.com/p/pyboleto/) e 
+BoletoPHP (http://www.boletophp.com.br/).
+
+Requisitos:
+    * python
+    * reportlab
+
+Atualmente o pybol está em fase de desenvolvimento e testes internos, versão
+alfa, e aberto a colaborações de outros desenvolvedores. Abaixo segue a lista 
+dos boletos que serão suportados e o seu estatus (aberto, desenvolvimento, 
+implementado, testado):
+
+     ====================================================================
+    |    BANCO    | CARTEIRA/CONV. |   DESENVOLVEDOR   |    STATUS       |
+     ====================================================================
+    | Bradesco    |                |                   | aberto          |
+     --------------------------------------------------------------------
+    | Brasil      |                |                   | aberto          |
+     --------------------------------------------------------------------
+    | Caixa       |                |                   | aberto          |
+     --------------------------------------------------------------------
+    | Hsbc        |                |                   | aberto          |
+     --------------------------------------------------------------------
+    | Itau        |                |                   | aberto          |
+     --------------------------------------------------------------------
+    | Real        |                | Henrique Menezes  | desenvolvimento |
+     ---------------------------------------------------------------------
+    | Santander   |                | Henrique Menezes  | desenvolvimento |
+     ---------------------------------------------------------------------
+
+Colaboradores:
+    * Henrique Menezes - floresta.henrique@gmail.com
+
