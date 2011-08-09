@@ -8,6 +8,7 @@ class BoletoSantander(Boleto):
 
     def __init__(self):
         Boleto.__init__(self)
+        self.logo = 'img/logo-santander.jpg'
         self.codigo_banco = '033'
         self.carteira = '102'
         self.__fixo = '9'
